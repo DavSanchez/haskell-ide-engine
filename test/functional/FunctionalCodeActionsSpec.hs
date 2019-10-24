@@ -153,7 +153,7 @@ spec = describe "code actions" $ do
         , "        $ hPutStrLn stdout"
         , "        $ fromMaybe \"Good night, World!\" (Just \"Hello, World!\")"
         ]
-      , -- Complex imports for Constructos and functions
+      , -- Complex imports for Constructors and functions
         [ "{-# LANGUAGE NoImplicitPrelude #-}"
         , "import           System.IO                      ( IO"
         , "                                                , hPutStrLn"
@@ -197,7 +197,7 @@ spec = describe "code actions" $ do
         , "        $ hPutStrLn stdout"
         , "        $ fromMaybe \"Good night, World!\" (Just \"Hello, World!\")"
         ]
-      ,  -- Complex imports for Constructos and functions
+      ,  -- Complex imports for Constructors and functions
         [ "{-# LANGUAGE NoImplicitPrelude #-}"
         , "import           System.IO (IO, hPutStrLn, stderr)"
         , "import           Prelude (Bool(..))"
